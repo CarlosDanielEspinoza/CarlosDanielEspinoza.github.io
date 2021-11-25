@@ -1,0 +1,73 @@
+.ProjectContainer{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 3em 13% 6em 13%;
+	gap: 2em;
+	box-shadow: 0em -0.2em 0.2em rgb(220,220,220);
+	background-color: white;
+}
+
+.ProjectsContainer_boxTitle{
+	display: flex;
+	flex-direction: column;
+
+	align-self: flex-start;
+}
+
+.ProjectsContainer_boxTitle p{
+	margin-top: 0px;
+	padding-left: 1em;
+	line-height: 1.8em;
+}
+
+.ProjectContainer_title{
+	font-size: 1.5em;
+}
+
+.ProjectContainer_Cards{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 2em;
+}
+
+.ProjectContainer_More{
+	margin-top: 2em;
+}
+
+.More_Button{
+	font-size: 1em;
+	font-weight: bolder;
+	padding: 0.5em 3em 0.5em 2em;
+
+	border-radius: 0.9em;
+	border: 8px solid #A10000;
+	color: white;
+	background-color: #A10000;
+	box-shadow: 0em 0.2em 0.2em gray;
+	transition: background-color, border-color, 0.2s;
+	cursor: pointer;
+	user-select: none;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+}
+
+.More_Button:hover{
+	background-color: #b80000ff;
+	border-color: #b80000ff;
+}
+.More_Button:active{
+	box-shadow: 0em 0.1em 0.1em gray;
+}
+
+@media (max-width: 640px){
+	.ProjectContainer{
+		padding: 3em 5% 6em 5%;
+	}
+}

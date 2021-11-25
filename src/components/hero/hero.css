@@ -1,0 +1,111 @@
+@keyframes startAnimation{
+	0% { opacity: 0%; }
+	100% { opacity: 100%;  }
+}
+
+.hero{
+	text-align: center;
+	width: 100%;
+	padding: 7em 10% 6em 10%;
+	margin-bottom: 6em;
+	background: linear-gradient(rgba(250,0,0,0.4), rgba(250,0,0,0));
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	animation: startAnimation 1.5s;
+}
+
+.title{
+	font-size: 3em;
+	margin-bottom: 0;
+}
+.subtitle{
+	font-weight: normal;
+	font-size: 1.4em;
+	line-height: 1.3em;
+	margin-bottom: 4em;
+}
+
+.hero_Button{
+	font-size: 1em;
+	font-weight: bolder;
+	padding: 0.5em 3em 0.5em 2em;
+	margin: 2em 0em 0em 0em;
+
+	border-radius: 0.9em;
+	border: 8px solid #A10000;
+	color: white;
+	background-color: #A10000;
+	box-shadow: 0em 0.2em 0.2em gray;
+	transition: background-color, border-color, 0.2s;
+	cursor: pointer;
+	user-select: none;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	flex: 1 1;
+}
+.hero_Button:hover{
+	background-color: #b80000ff;
+	border-color: #b80000ff;
+}
+.hero_Button:active{
+	box-shadow: 0em 0.1em 0.1em gray;
+}
+
+
+@media (max-width: 640px){
+	.hero{
+		text-align: center;
+		padding: 8em 5% 6em 5%;
+		width: 100%;
+	}
+
+	.title{
+		font-size: 2em;
+
+	}
+	.subtitle{
+		font-weight: normal;
+		font-size: 1.1em;
+		line-height: 1.3em;
+	}
+
+	.hero_Button{
+		width: 80%;
+		padding: 0.5em 1em 0.5em 1em;
+		margin: 0em 0em 0em 0em;
+
+	}
+	.hero a{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+}
+
+@media (min-width: 641px) and (max-width: 900px) {
+	.hero{
+		text-align: center;
+		width: 100%;
+		padding: 7em 10% 6em 10%;
+	}
+
+	.title{
+		font-size: 2em;
+
+	}
+	.subtitle{
+		font-weight: normal;
+		font-size: 1.1em;
+		line-height: 1.3em;
+		margin-bottom: 2em;
+	}
+
+}

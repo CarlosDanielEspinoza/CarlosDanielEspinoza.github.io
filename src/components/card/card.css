@@ -1,0 +1,54 @@
+.card{
+	border-radius: 0.3em;
+	box-shadow: 0.1em 0.1em 0.3em gray;
+	text-align: center;
+	width: 300px;
+
+	transition: transform, 0.2s;
+	overflow: hidden;
+} 
+.card:hover{
+	transform: scale(1.1);
+}
+
+.card_title{
+	margin: 0em;
+	padding: 0.2em;
+	font-size: 1.4em;
+	user-select: none;
+	background-color: #A10000;
+	color: white;
+}
+
+.card_img{
+	width: 100%;
+}
+
+.card_panel{
+	display: flex;
+	align-items: center;
+
+}
+
+.card_panel img{
+	height: 25px;
+	margin: 5px;
+	filter: brightness(1);
+	transform: scale(1);
+	transition: filter, transform, 0.2s;
+}
+.card_panel img:hover{
+	filter: brightness(1.2);
+	transform: scale(1.1);
+	cursor: pointer;
+
+}
+
+.card_panel p{
+	font-size: 0.8em;
+	padding: 0em 0em 0.2em 1em;
+	margin: 0;
+	flex: 1 1;
+	text-align: left;
+	user-select: none;
+}

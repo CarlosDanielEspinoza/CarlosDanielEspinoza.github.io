@@ -1,0 +1,149 @@
+.navbar{
+	position: fixed;
+	top: 0%;
+	box-shadow: 0 0em 0.5em gray;
+	background-color: white;
+	user-select: none;
+
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	z-index: 2;
+}
+
+.navbarContainerLeft{
+	display: flex;
+	align-items: center;
+	gap: 0.1em;
+
+	margin: 0em 0em 0em 1em
+}
+.navbarContainerRight{
+	display: flex;
+	align-items: center;
+	gap: 0.4em;
+
+	margin: 0em 1em 0em 0em
+}
+.navbarBurger{
+	display: none;
+}
+.navbarScroll{
+	display: none;
+}
+..navbarScrollOn{
+	dislay: none;
+}
+
+.navTitle{
+	font-weight: bold;
+	font-size: 2em;
+	color: rgb(40,40,40);
+}
+
+.navButton{
+	height: 65%;
+	padding: 0 0.6em 0 0.6em;
+	color: rgb(40,40,40);
+	font-weight: bold;
+	transition: color 0.2s;
+	font-size: 1.2em;
+
+	display: flex;
+	align-items: center;
+}
+.navButton:hover{
+	color: #A10000;
+}
+
+.buttonCta{
+	background-color: white;
+	color: #A10000;
+	border: 3px solid #A10000;
+	border-radius: 0.5em;
+	transition: color background-color, 0.2s;
+	
+}
+.buttonCta:hover{
+	background-color: #A10000;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+.disabled{
+	display:none;
+}
+
+@media (max-width: 640px){
+	.navbarContainerRight{
+		display: none;
+	}
+
+	.navbarBurger{
+		display: flex;
+		margin: 0.8em 0.8em 0em 0em;
+		height: 70%;
+		padding: 0.1em;
+		border: 3px solid #A10000;
+		border-radius: 0.2em;
+		cursor: pointer;
+	}
+
+	.navbarScrollOn{
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+		padding: 1em;
+		align-items: center;
+		justify-content: center;
+		flex: 1 1 100%;
+	}
+	.navTitle{
+		font-weight: bold;
+		font-size: 1.8em;
+		color: rgb(40,40,40);
+	}
+}
+
+@media (max-width: 900px){
+	.navTitle{
+		font-weight: bold;
+		font-size: 1.7em;
+		color: rgb(40,40,40);
+	}
+	.navbarContainerRight{
+		gap: 0em;
+
+	}
+	.navButton{
+		height: 65%;
+		padding: 0 0.5em 0 0.5em;
+		font-size: 1em;
+	}
+}
+
+@media (min-width: 900px) and (max-width: 1800px){
+	.navbar{
+		width: 100%;
+		padding: 0% 10% 0% 10%;
+	}
+
+	.navTitle{
+		font-weight: bold;
+		font-size: 1.7em;
+		color: rgb(40,40,40);
+	}
+	.navbarContainerRight{
+		gap: 0em;
+
+	}
+	.navButton{
+		height: 65%;
+		padding: 0 0.5em 0 0.5em;
+		font-size: 1em;
+	}
+}

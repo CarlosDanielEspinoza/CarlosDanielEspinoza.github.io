@@ -1,0 +1,48 @@
+.ContactContainer{
+	margin: 2em 0em 0em 0em;
+	padding: 0% 13% 0% 13%;
+	background-color: rgb(40,40,40);
+	width: 100%;
+	height: 80vh;
+	color: white;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.ContactContainer_title{
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin: 1.5em 0em 0.3em 0em;
+}
+
+.ContactContainer_text{
+	color: white;
+	text-align: center;
+}
+
+.ContactContainer_imgBox{
+	display: flex;
+	gap: 2em;
+	padding: 2em 0em 0.5em 0em;
+	flex: 1 1;
+}
+
+.ContactContainer_img{
+	width:43px;
+	height: 43px;
+	transition: transform 0.2s;
+	cursor: pointer;
+}
+
+.ContactContainer_img:hover{
+	transform: scale(1.1);
+}
+
+.Rights_text{
+	color: white;
+	display: flex;
+	align-items: flex-end;
+}
