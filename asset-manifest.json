@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/CarlosDanielEspinoza.github.io.git/static/css/main.cc1f871f.chunk.css",
+    "main.js": "/CarlosDanielEspinoza.github.io.git/static/js/main.afb62b1e.chunk.js",
+    "main.js.map": "/CarlosDanielEspinoza.github.io.git/static/js/main.afb62b1e.chunk.js.map",
+    "runtime-main.js": "/CarlosDanielEspinoza.github.io.git/static/js/runtime-main.0784141e.js",
+    "runtime-main.js.map": "/CarlosDanielEspinoza.github.io.git/static/js/runtime-main.0784141e.js.map",
+    "static/js/2.31a87a53.chunk.js": "/CarlosDanielEspinoza.github.io.git/static/js/2.31a87a53.chunk.js",
+    "static/js/2.31a87a53.chunk.js.map": "/CarlosDanielEspinoza.github.io.git/static/js/2.31a87a53.chunk.js.map",
+    "static/js/3.23c466a3.chunk.js": "/CarlosDanielEspinoza.github.io.git/static/js/3.23c466a3.chunk.js",
+    "static/js/3.23c466a3.chunk.js.map": "/CarlosDanielEspinoza.github.io.git/static/js/3.23c466a3.chunk.js.map",
+    "index.html": "/CarlosDanielEspinoza.github.io.git/index.html",
+    "static/css/main.cc1f871f.chunk.css.map": "/CarlosDanielEspinoza.github.io.git/static/css/main.cc1f871f.chunk.css.map",
+    "static/js/2.31a87a53.chunk.js.LICENSE.txt": "/CarlosDanielEspinoza.github.io.git/static/js/2.31a87a53.chunk.js.LICENSE.txt",
+    "static/media/Captura01.bf3cd372.png": "/CarlosDanielEspinoza.github.io.git/static/media/Captura01.bf3cd372.png",
+    "static/media/Captura02.d7aa88ab.png": "/CarlosDanielEspinoza.github.io.git/static/media/Captura02.d7aa88ab.png",
+    "static/media/Captura03.4bdbb4a6.png": "/CarlosDanielEspinoza.github.io.git/static/media/Captura03.4bdbb4a6.png",
+    "static/media/Node.8e341cc0.png": "/CarlosDanielEspinoza.github.io.git/static/media/Node.8e341cc0.png",
+    "static/media/burger.899fca5e.svg": "/CarlosDanielEspinoza.github.io.git/static/media/burger.899fca5e.svg",
+    "static/media/chain.a556f172.svg": "/CarlosDanielEspinoza.github.io.git/static/media/chain.a556f172.svg",
+    "static/media/css-3.463e319b.png": "/CarlosDanielEspinoza.github.io.git/static/media/css-3.463e319b.png",
+    "static/media/html-5.ff3cf75e.png": "/CarlosDanielEspinoza.github.io.git/static/media/html-5.ff3cf75e.png",
+    "static/media/js.193cfc6d.png": "/CarlosDanielEspinoza.github.io.git/static/media/js.193cfc6d.png",
+    "static/media/logo.b64fb083.svg": "/CarlosDanielEspinoza.github.io.git/static/media/logo.b64fb083.svg",
+    "static/media/logo.df34ffc7.svg": "/CarlosDanielEspinoza.github.io.git/static/media/logo.df34ffc7.svg",
+    "static/media/python.9431343c.png": "/CarlosDanielEspinoza.github.io.git/static/media/python.9431343c.png",
+    "static/media/react.a544fd8c.png": "/CarlosDanielEspinoza.github.io.git/static/media/react.a544fd8c.png",
+    "static/media/twitter.8097ca9d.svg": "/CarlosDanielEspinoza.github.io.git/static/media/twitter.8097ca9d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0784141e.js",
+    "static/js/2.31a87a53.chunk.js",
+    "static/css/main.cc1f871f.chunk.css",
+    "static/js/main.afb62b1e.chunk.js"
+  ]
+}
